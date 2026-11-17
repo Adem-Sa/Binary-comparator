@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![PyQt6](https://img.shields.io/badge/GUI-PyQt6-41CD52?logo=qt&logoColor=white)
-![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows&logoColor=white)
+
 
 A high-performance, multithreaded PyQt6 desktop utility engineered for analyzing and comparing raw binary files, firmware images, and ECU calibration dumps (`.bin`, `.ori`, `.mod`, `.hex`, `.eep`, `.mpc`, `.fls`) side-by-side.
 
