@@ -18,13 +18,4 @@ A high-performance, multithreaded PyQt6 desktop utility engineered for analyzing
 
 ---
 
-## Project Structure
 
-```text
-Binary-comparator/
-├── main.py          # Application entry point
-├── ui_main.py       # PyQt6 main window, QThread worker, batch renderer & QSyntaxHighlighter
-├── engine.py        # High-speed memoryview binary comparison core
-├── style.qss        # Dark mode QSS stylesheet
-├── app_icon.png     # Application window & executable icon
-└── README.md        # Project documentation
