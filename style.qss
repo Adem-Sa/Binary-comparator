@@ -1,0 +1,112 @@
+QMainWindow, QWidget {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 13px;
+}
+
+QFrame#panel {
+    background-color: #252526;
+    border: 1px solid #3e3e42;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+QLineEdit {
+    background-color: #1e1e1e;
+    border: 1px solid #3e3e42;
+    border-radius: 4px;
+    padding: 6px 8px;
+    color: #d4d4d4;
+}
+
+QComboBox {
+    background-color: #333337;
+    border: 1px solid #45454a;
+    border-radius: 4px;
+    padding: 4px 8px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+QComboBox:hover {
+    border-color: #4ec9b0;
+}
+
+QComboBox::drop-down {
+    border: none;
+    width: 16px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #252526;
+    border: 1px solid #3e3e42;
+    selection-background-color: #0e639c;
+    color: #ffffff;
+}
+
+QPushButton {
+    background-color: #333337;
+    border: 1px solid #45454a;
+    border-radius: 4px;
+    padding: 6px 14px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+QPushButton:hover {
+    background-color: #3e3e42;
+    border-color: #4ec9b0;
+}
+
+QPushButton:disabled {
+    background-color: #252526;
+    color: #6e6e6e;
+    border-color: #333337;
+}
+
+QPushButton#primaryButton {
+    background-color: #0e639c;
+    border: 1px solid #1177bb;
+    font-weight: bold;
+}
+
+QPushButton#primaryButton:hover {
+    background-color: #1177bb;
+}
+
+QProgressBar {
+    background-color: #252526;
+    border: 1px solid #3e3e42;
+    border-radius: 4px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    height: 20px;
+}
+
+QProgressBar::chunk {
+    background-color: #4ec9b0;
+    border-radius: 3px;
+}
+
+QLabel#statLabel {
+    font-weight: bold;
+    color: #4ec9b0;
+    padding: 2px 6px;
+}
+
+QLabel#hexHeader {
+    color: #9cdcfe;
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 4px;
+}
+
+QPlainTextEdit {
+    background-color: #181818;
+    border: 1px solid #3e3e42;
+    border-radius: 4px;
+    color: #dcdcaa;
+    padding: 8px;
+}
